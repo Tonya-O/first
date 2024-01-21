@@ -8,6 +8,11 @@
 	justify-content: center;
 	background-color: white;
 	width: 100%;
+	border: 4px solid lightblue;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 290px;
+	border-radius: 16px;
 }
 
 .small {
@@ -18,6 +23,11 @@
 	justify-content: center;
 	background-color: white;
 	width: 100%;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 290px;
+	border-radius: 16px;
+	border: 4px solid lightblue;
 }
 
 main {
@@ -30,10 +40,23 @@ main {
 	padding: 100px 290px;
 	margin: 0 auto;
 	color: white;
+	border-radius: 16px;
 	/*
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
 */
+}
+
+.vid {
+	background-color: lightblue;
+	/*	flex-direction: row;*/
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	color: white;
+	border-radius: 16px;
 }
 
 body {
@@ -66,19 +89,19 @@ body {
 
 .animaltext {
 	color: lightblue;
-	font-weight:bold;
+	font-weight: bold;
 	font-size: 35px;
 	margin: 2px;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
 .up {
 	color: white;
 	font-size: 30px;
-	display:flex;
+	display: flex;
 	justify-content: center;
 }
 
@@ -103,9 +126,26 @@ a{
 	text-align: center;
 	font-size: 25px;
 	border-radius: 7px;
+}
+
+.spisoc2 {
+	background-color: white;
+	color: lightblue;
+	width: 250px;
+	margin: 35px 10px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 7px;
 
 }
-	
+
+
 .fact {
 	background-color: white;
 	color: rgb(5, 109, 228);
@@ -126,4 +166,32 @@ footer {
 	color: lightblue;
 	padding: 10px;
 	font-size: 20px;
+	width: 1350px;
+	display: flex;
+	justify-content: center;
+	border: 4px solid lightblue;
+	padding: 5px auto 5px 10px;
+	margin: 0 auto;
+	border-radius: 16px;
+}
+
+.redk {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	border: 4px solid white;
+	border-radius: 16px;
+	margin: 40px;
+}
+
+.text_h2 {
+	font-size: 90px;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+
+img {
+	border-radius: 4px;
 }
